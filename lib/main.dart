@@ -1,5 +1,6 @@
 import 'package:facebook_clone/config/palette.dart';
 import 'package:flutter/material.dart';
+import 'screens/home_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,18 +14,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: Palette.scaffold,
-        
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Material App Bar'),
-        ),
-        body: Center(
-          child: Container(
-            child: Text('Hello World'),
-          ),
-        ),
-      ),
+      home: HomeScreen(),
     );
   }
 }
