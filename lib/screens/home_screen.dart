@@ -1,4 +1,5 @@
 import 'package:facebook_clone/config/palette.dart';
+import 'package:facebook_clone/data/data.dart';
 import 'package:facebook_clone/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -37,6 +38,9 @@ class HomeScreen extends StatelessWidget {
                   iconSize: 30.0,
                   onPressed: () => print("Messenger"))
             ],
+          ),
+          SliverToBoxAdapter(
+            child: CreatePostContainer(currentUser: currentUser),
           )
         ],
       ),
