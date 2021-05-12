@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
             //  forceElevated: true,
             centerTitle: false,
             floating: true,
-            pinned: true,
+            pinned: false,
             actions: [
               CircleButton(
                   icon: Icons.search,
@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
               final Post post = posts[index];
               return PostContainer(post: post);
             },
-            childCount: posts.length, 
+            childCount: posts.length,
           ))
         ],
       ),
