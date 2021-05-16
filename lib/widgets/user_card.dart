@@ -16,9 +16,13 @@ class UserCard extends StatelessWidget {
           const SizedBox(
             width: 6.0,
           ),
-          Text(
-            user.name,
-            style: TextStyle(fontSize: 16.0),
+          Flexible(
+            child: Text(
+              user.name,
+              style: TextStyle(fontSize: 16.0),
+              overflow: TextOverflow.ellipsis,
+              maxLines: 1,
+            ),
           ),
         ],
       ),

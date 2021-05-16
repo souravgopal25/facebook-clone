@@ -51,7 +51,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               child: Row(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
-              UserCard(user: currentUser),
+              Expanded(child: UserCard(user: currentUser)),
               const SizedBox(
                 width: 12.0,
               ),

@@ -43,7 +43,7 @@ class _NavScreenState extends State<NavScreen> {
                     onTap: (index) => setState(() => _selectedIndex = index),
                   ),
                   preferredSize: Size(screenSize.width, 100))
-              : const SizedBox.shrink(),
+              : null,
           body: IndexedStack(
             index: _selectedIndex,
             children: _Screens,
