@@ -1,16 +1,22 @@
-# facebook_clone
+<h1 align="center">Facebook -Clone</h1>
 
-A new Flutter project.
+<p align="center"><img src="https://socialify.git.ci/souravgopal25/facebook-clone/image?description=1&amp;font=Source%20Code%20Pro&amp;language=1&amp;owner=1&amp;pattern=Charlie%20Brown&amp;theme=Dark" alt="project"></p>
 
-## Getting Started
+<p>Facebook Clone using flutter for mobile and web</p>
 
-This project is a starting point for a Flutter application.
+<h2>🚀 Demo</h2>
 
-A few resources to get you started if this is your first Flutter project:
+[https://flutter-project-27b0d.web.app/#/](https://flutter-project-27b0d.web.app/#/)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<h2>Project Screenshots:</h2>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://firebasestorage.googleapis.com/v0/b/netflix-e117f.appspot.com/o/Screenshot%20from%202021-09-21%2023-39-04.png?alt=media&amp;token=ba5e6898-5f41-4352-8d18-14a7b2d55714" alt="shields" width="1000" height="400/">
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Flutter
+*   Firebase
